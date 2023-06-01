@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    display: grid;
+    gap: 16px;
+    grid-template-areas: 
+        "cabecalho cabecalho cabecalho"
+        "aside secao nav"
+        "rodape rodape rodape"
+    ;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.cabecalho{
+    background-color: #FFFFFF;
+    grid-area: cabecalho;
+    padding-block: 24px;
+    padding-inline: 32px;
+}
+
+.titulo-pagina{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.conteudo-relacionado{
+    background-color: #FFFFFF;
+    grid-area: aside;
+    padding: 24px;
+}
+
+.subtitulo{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.secao{
+    background-color: #FFFFFF;
+    grid-area: secao;
+    padding: 24px;
+}
+
+.artigo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cabecalho-artigo{
+    background-color: #c1c1c1;
+    padding: 8px;
+}
+
+.titulo-artigo{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.paragrafo-artigo{
+    line-height: 1.5;
+}
+
+.imagem-artigo{
+    display: block;
+}
+
+.rodape-artigo{
+    background-color: #c1c1c1;
+    padding: 8px;
+}
+
+.navegacao-menu{
+    background-color: #FFFFFF;
+    grid-area: nav;
+    padding: 24px;
+}
+
+.rodape{
+    background-color: #FFFFFF;
+    grid-area: rodape;
+    padding-block: 24px;
+    padding-inline: 32px;
+}
