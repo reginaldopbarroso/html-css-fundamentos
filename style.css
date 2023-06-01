@@ -3,7 +3,8 @@
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: #333333;
+    color: #FFFFFF;
     font-family: sans-serif;
     display: grid;
     gap: 16px;
@@ -16,7 +17,7 @@ body{
 }
 
 .cabecalho{
-    background-color: #FFFFFF;
+    background-color: #1A1A1A;
     grid-area: cabecalho;
     padding-block: 24px;
     padding-inline: 32px;
@@ -28,7 +29,7 @@ body{
 }
 
 .conteudo-relacionado{
-    background-color: #FFFFFF;
+    background-color: #1A1A1A;
     grid-area: aside;
     padding: 24px;
 }
@@ -47,11 +48,11 @@ body{
 
 a{
     text-decoration: none;
-    color: black;
+    color: #FFFFFF;
 }
 
 .secao{
-    background-color: #FFFFFF;
+    background-color: #1A1A1A;
     grid-area: secao;
     padding: 24px;
 }
@@ -63,7 +64,7 @@ a{
 }
 
 .cabecalho-artigo{
-    background-color: #c1c1c1;
+    background-color: #5e5e5e;
     padding: 8px;
 }
 
@@ -73,6 +74,7 @@ a{
 }
 
 .paragrafo-artigo{
+    color: #FFFFFF;
     line-height: 1.5;
 }
 
@@ -81,18 +83,18 @@ a{
 }
 
 .rodape-artigo{
-    background-color: #c1c1c1;
+    background-color: #5e5e5e;
     padding: 8px;
 }
 
 .navegacao-menu{
-    background-color: #FFFFFF;
+    background-color: #1A1A1A;
     grid-area: nav;
     padding: 24px;
 }
 
 .rodape{
-    background-color: #FFFFFF;
+    background-color: #1A1A1A;
     grid-area: rodape;
     padding-block: 24px;
     padding-inline: 32px;
